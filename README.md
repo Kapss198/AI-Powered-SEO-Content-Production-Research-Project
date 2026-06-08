@@ -3,7 +3,7 @@
 **Author:** Kapil  
 **Topic:** AI-Powered SEO Content Production  
 **Purpose:** Portfolio project for 100Hires Junior Growth Marketing Specialist role  
-**Status:** Phase 1 — Expert Research & Source Collection 
+**Status:** Expert Research & Source Collection 
 
 ---
 
@@ -102,7 +102,7 @@ Transcripts fetched via Supadata API and stored in `/research/youtube-transcript
 
 ---
 
-## What Comes Next (Phase 2)
+## What Comes Next
 
 The next phase will extract themes from the collected transcripts and LinkedIn posts. Themes to extract:
 
@@ -111,17 +111,6 @@ The next phase will extract themes from the collected transcripts and LinkedIn p
 3. **Topical authority** — how do you structure a content library so that Google sees you as an expert, not a content farm?
 4. **AEO / GEO** — how do you optimize for AI-generated answers, not just blue links?
 5. **Measurement** — what metrics actually matter when most clicks are zero-click?
-
----
-
-## Commit Log
-
-- `2026-06-09` — Initial repo setup, directory structure created
-- `2026-06-09` — Added `/research/sources.md` with 10 experts, full annotations, YouTube links
-- `2026-06-09` — Added `README.md` with project overview and methodology
-- `2026-06-09` — Added `/research/other/additional-sources.md` (newsletters, podcasts, webinars)
-- `2026-06-09` — Fetched YouTube transcripts via Supadata API — stored in `/research/youtube-transcripts/`
-- `2026-06-09` — Added LinkedIn posts per expert in `/research/linkedin-posts/`
 
 ---
 
