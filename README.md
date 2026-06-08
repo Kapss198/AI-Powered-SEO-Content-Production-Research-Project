@@ -3,7 +3,7 @@
 **Author:** Kapil  
 **Topic:** AI-Powered SEO Content Production  
 **Purpose:** Portfolio project for 100Hires Junior Growth Marketing Specialist role  
-**Status:** Phase 1 — Expert Research & Source Collection (In Progress)
+**Status:** Phase 1 — Expert Research & Source Collection 
 
 ---
 
