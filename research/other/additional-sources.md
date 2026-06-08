@@ -55,9 +55,11 @@ This file documents high-quality non-LinkedIn, non-YouTube sources from the 10 e
 - **Key topics:** Why E-E-A-T is mandatory in the AI era, ranking AI content, the future of on-page SEO
 
 ### 9. "SEO vs GEO: Aleyda Solis on eCommerce Search in an AI-First World" (SearchPilot)
-- **URL:** https://podcasts.apple.com/us/podcast/seo-vs-geo-aleyda-solis
+- **URL:** https://www.searchpilot.com/resources/blog/seo-vs-geo-aleyda-solis-on-ecommerce-search-in-an-ai-first-world
+- **Apple Podcasts:** https://podcasts.apple.com/us/podcast/seo-vs-geo-aleyda-solis-on-ecommerce-search-in-an-ai/id1658826011?i=1000731842477
 - **Date:** October 2025
-- **Key topics:** How to navigate both traditional SEO and GEO simultaneously
+- **Key topics:** How to navigate both traditional SEO and GEO simultaneously, eCommerce search in an AI-first world, balancing blue-link rankings with AI citation strategy
+- **Note:** Original Apple Podcasts URL was broken (missing episode ID) — replaced with SearchPilot blog page and correct episode link, both verified live.
 
 ---
 
@@ -73,7 +75,9 @@ This file documents high-quality non-LinkedIn, non-YouTube sources from the 10 e
 - **Date:** 2026
 - **Why essential:** Best available analysis of what the March 2024 Core Update actually killed in programmatic/AI content production
 
-### 12. "Koray's Agents: Generative AI Agents for Semantic SEO and Topical Authority" — Koray Tugberk GUBUR (Medium)
-- **URL:** https://medium.com/@ktgubur/korays-agents-generative-ai-agents-for-semantic-seo-and-topical-authority
+### 12. "Koray Tugberk GUBUR's 48 AI Agents: Complete Semantic SEO Toolkit Guide"
+- **URL:** https://rokonz.com/resources/koray-tugberk-gubur-ai-agents-semantic-seo
+- **Original Medium article (browser only):** https://medium.com/@ktgubur/korays-agents-generative-ai-agents-for-semantic-seo-and-topical-authority-d4b247fac72a
 - **Date:** June 2024
-- **Why essential:** Most advanced available blueprint for building AI agent workflows for SEO content production
+- **Why essential:** Most advanced available blueprint for building AI agent workflows for SEO content production — covers all 48 custom GPT agents Koray built across 9 categories: linguistic analysis, semantic extraction, entity mapping, topicality, sentiment, SEO auditing, data analysis, summarisation, and technical generation
+- **Note:** Original Medium URL was bot-blocked (403). Replaced with Rokonz.com comprehensive guide (verified 200). Full Medium article accessible via browser at the link above.
