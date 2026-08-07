@@ -761,3 +761,559 @@ PER PIECE
 ```
 
 ---
+
+## 7. Where Experts Disagree
+
+These are real conflicts in the source material, not manufactured ones. In each
+case both parties are competent practitioners with evidence, which is what makes
+the disagreement worth resolving rather than splitting.
+
+---
+
+### 7.1 Disagreement 1 — Volume versus selectivity
+
+> **The issue:** Should an AI-assisted content operation optimise for throughput
+> or for per-piece quality? This determines the entire shape of the workflow.
+
+**Position A — Nick Jordan: win authority through volume.**
+
+Jordan's method is described in the episode introduction as producing "800
+articles a month for a website," with the underlying logic that you "win
+authority on the basis of producing a large volume of content." The corollary is
+explicit and aggressive: "by doing that, you don't have to focus on things like
+backlinks and a lot of the on-page technical things." The host notes it has
+worked "all the way down to 20 articles a month."
+
+*Source: "How Nick Jordan Grows Sites to Over 100k Organic Views a Month Without Link Building" — [`nick-jordan-how-nick-jordan-grows-sites-to-over-100k-organic-views-a-mon.md`](./research/youtube-transcripts/nick-jordan-how-nick-jordan-grows-sites-to-over-100k-organic-views-a-mon.md) · https://www.youtube.com/watch?v=wW_t3btaxAk*
+⚠️ *These figures are spoken by the host characterising Jordan's approach, not by Jordan directly. Weight accordingly.*
+
+**Position B — Mordy Oberstein and Lily Ray: quality is the gate.**
+
+Oberstein's position is conditional rather than anti-volume — AI content is fine
+"where there's probably nothing new I can add," and a liability where facts have
+changed. Critically, he identifies the mechanism by which volume advice goes
+wrong at scale: AI writing tools "solve such a powerful pain point" that adoption
+outruns judgement, and the predictable result is people "running listicles [...]
+writing very thin content, it's fluff." His prescription is "peer-reviewed,
+meaning human-reviewed AI work."
+
+*Sources: [`mordy-oberstein-seo-branding-and-ai-content...`](./research/youtube-transcripts/mordy-oberstein-seo-branding-and-ai-content-with-mordy-oberstein-head-of-seo.md); [`lily-ray-geo-aeo-llmo...`](./research/youtube-transcripts/lily-ray-geo-aeo-llmo-separating-fact-from-fiction-mozcon-2025.md)*
+
+**Weighing the evidence**
+
+| | Jordan | Oberstein / Ray |
+|---|---|---|
+| Evidence type | Repeated first-party results across multiple sites | Aggregate observation (Wix scale) + agency client base |
+| Verifiable here? | Self-reported, relayed by a host | Self-reported, but multi-site and directionally corroborated |
+| Era | Pre-dates AI Overviews and the AI content glut | Spans the transition |
+| Falsifiable? | Partly — the sites exist | Weakly |
+
+**My conclusion: adopt Jordan's *architecture*, reject his *volume target and his dismissal of technical SEO*.**
+
+Three reasons.
+
+1. **The strategy is time-indexed and the clock ran out.** Jordan's advantage came from producing more content than competitors could afford to. AI removed that cost asymmetry for everyone simultaneously. A tactic whose entire edge was relative cost cannot survive the cost going to zero across the market. What remains valuable is *why* it worked — topical completeness and internal linking — which is exactly what [Step 4](#step-4--entity--topical-authority-planning) retains.
+
+2. **"You don't need on-page technical" is now falsified by a mechanism that did not exist when he said it.** Aleyda Solís's finding that AI crawlers do not render JavaScript at all means technical retrievability is a *precondition* for AI citation, not an optimisation. Jordan's advice was defensible for Googlebot in 2022. It is not defensible for the retrieval layer in 2026.
+
+3. **Volume was never the causal variable — it was a proxy for coverage.** 800 articles that complete a topic map and 800 that do not produce different outcomes. Once you name the real variable, you can pursue it at 10 articles a month.
+
+**What I take from Jordan anyway:** internal linking discipline and topical relevance, both of which he emphasises and both of which survive into [Steps 4 and 11](#step-4--entity--topical-authority-planning). His observation that he approached SEO "from a fresh perspective" without "Legacy Panda and Penguin" baggage is also a fair critique of the industry's tendency to over-index on historical trauma.
+
+---
+
+### 7.2 Disagreement 2 — Is AEO/GEO a separate discipline?
+
+> **The issue:** Does optimising for AI answers require a distinct process, team,
+> and budget — or is it the existing SEO process under a new name?
+
+**Position A — Lily Ray: it is substantially just SEO.**
+
+Ray's MozCon case is the most heavily evidenced argument in the entire research
+set, and she assembles it from sources hostile to her own commercial interest:
+
+- Google's Danny Sullivan "confirmed that good SEO is really the same thing as good GEO."
+- Google's John Mueller characterises embedding-optimisation as "literally [...] keyword stuffing, which is a form of spam."
+- Britney Müller: "every single URL that you see in an LLM output actually comes from a search engine API, Google or Bing."
+- On the tactics themselves: chunking is formatting plus schema, which "we've been doing since 2011"; multimodal content, digital PR, and query fan-out all map onto existing practice.
+- On magnitude: LLM referral traffic is ~1–2% versus 30–50% from organic.
+
+**Position B — Bernard Huang and Brendan Hufford: the workflow is genuinely new.**
+
+Huang has built a distinct operational process — prompt research, query fan-out
+capture, citation tracking — with tooling behind it. His demonstration shows
+something a SERP report does not: which domains a model *reasons over* (G2,
+Gartner) and whether the brand appears at all.
+
+Hufford makes the strongest business-impact claim in the research, about his own
+firm: "we get 90-plus percent of our new business from inbound organic, and we've
+seen in this calendar year 2025 [...] close to 60% of the people coming to us —
+it used to be 98.9% from Google — it's now answer engines."
+
+*Sources: [`bernard-huang-how-to-do-aeo...`](./research/youtube-transcripts/bernard-huang-how-to-do-aeo-prompt-research-query-fan-out-content-live-ses.md); [`brendan-hufford-from-seo-to-aeo...`](./research/youtube-transcripts/brendan-hufford-from-seo-to-aeo-how-answer-engine-optimization-is-replacing.md)*
+
+**Weighing the evidence**
+
+Hufford's number is the most striking figure in the research and also the one
+requiring the most caution. It is **n=1, self-reported, and drawn from the single
+most selection-biased population imaginable**: people who find an *AI-SEO
+consultancy* are, definitionally, people already using AI tools to search. A
+98.9% → 60% shift in that population tells us little about a recruiting product,
+a manufacturer, or a healthcare provider. Hufford does not claim otherwise — he
+offers it as his own experience — but it circulates as though it were market data.
+
+Ray's evidence is broader, better sourced, includes disconfirming data, and
+draws on Google statements against the industry's commercial interest.
+
+**My conclusion: Ray is right about the content process; Huang is right about the measurement layer. Split the question.**
+
+The reason the disagreement persists is that both sides are answering
+*different questions* while using the same vocabulary:
+
+| Question | Answer | Whose position |
+|---|---|---|
+| Do I need a different **content production process**? | **No.** Retrievable content is well-made content. | Ray |
+| Do I need different **research inputs**? | **Partly.** Query fan-out reveals what a SERP report does not. | Huang |
+| Do I need a different **measurement system**? | **Yes.** Rank tracking cannot see citations. | Huang, Ray (on KPIs) |
+| Should I **reallocate significant budget** to AEO today? | **No** — at 1–2% of traffic, build measurement first. | Ray |
+
+This is why the playbook has **one** content workflow and **two** measurement
+tracks. Teams that build a parallel "GEO team" are solving an organisational
+problem that the evidence does not support.
+
+---
+
+### 7.3 Disagreement 3 — Do technical on-page signals outrank content quality?
+
+> **The issue:** If a page can rank on structural signals alone, how much is
+> substance actually worth?
+
+**Position A — Kyle Roof: on-page mechanics are more powerful than admitted.**
+
+Roof won a ranking competition using Lorem Ipsum placeholder text, and reports
+this was not a one-off: "I've got several sites still up right now that are Lorem
+Ipsum sites, and ranking in the number one spot for their terms [...] they're
+just Lorem Ipsum pages with the math done."
+
+Notably, he volunteers the caveat himself. Asked whether this is content advice,
+he answers: "maybe not the best advice — no, in fact, it's pretty terrible."
+
+*Source: [`kyle-roof-kyle-roof-talks-eeat-and-the-future-of-seo-with-artificial-i.md`](./research/youtube-transcripts/kyle-roof-kyle-roof-talks-eeat-and-the-future-of-seo-with-artificial-i.md) · https://www.youtube.com/watch?v=SniZRx1PXdg*
+
+**Position B — Huang, Ray, Indig: substance is the differentiator.**
+
+Huang's information-gain thesis holds that content ranks when it adds something
+absent from the existing corpus. Indig locates the mechanism in trust as a
+selection criterion. Ray's E-E-A-T work makes experience the scarce input.
+
+**My conclusion: Roof is empirically right and strategically obsolete — and the reason is retrieval.**
+
+I want to be careful here, because Roof's methodology is more rigorous than most
+of what the industry produces. He runs controlled tests; his critics mostly run
+opinions. Dismissing him because his conclusion is unfashionable would be exactly
+the failure of skepticism this playbook is trying to avoid.
+
+But three constraints bound the finding:
+
+1. **Regime.** Lorem Ipsum ranking demonstrates that ranking systems can be satisfied structurally in **low-competition, low-YMYL** niches. It does not demonstrate this in competitive commercial verticals, and Roof does not claim it does.
+
+2. **It cannot survive the retrieval layer.** A Lorem Ipsum page can occupy a blue link. It cannot be *cited* by an answer engine, because citation requires the model to extract a proposition and reproduce it. There is nothing to extract. As the retrieval layer takes share — even at Ray's modest 1–2% and rising — the strategy has a structural ceiling that on-page precision cannot raise.
+
+3. **Roof himself does not recommend it.** "It's pretty terrible" advice. His work is a *proof about ranking systems*, not a *content strategy*, and it is frequently cited as though it were the latter.
+
+**Practical resolution:** clear the on-page floor cheaply and precisely — Roof's
+work justifies taking it more seriously than "write well and it'll be fine" — and
+then compete on substance, because substance is the only input that works in both
+competitions.
+
+---
+
+### 7.4 Disagreement 4 — Should you restructure content for LLM ingestion?
+
+> **The issue:** The most common tactical advice in AI-SEO — chunk your content,
+> optimise for embeddings, format for machine ingestion. Does it work?
+
+**Position A — the prevailing GEO advice.** Ray catalogues it as the dominant
+2025 message: content "must be properly chunked, converted to vector embeddings,
+and measured with cosine similarity, or else you'll be invisible in AI search."
+
+**Position B — Ray, citing Google.** Chunking is "an AI engineering function,"
+not an SEO one; models "not you, decide how to slice your content," every model
+chunks differently and changes it "for speed, accuracy, and cost considerations."
+John Mueller equates embedding-optimisation with keyword stuffing.
+
+**My conclusion: side with Ray, but keep the useful half.**
+
+The advice contains a good instruction wrapped in a bad mechanism. The good
+instruction — write self-contained answers that survive being lifted out of
+context — is real, and is Gate C in this playbook. The bad mechanism — trying to
+control tokenisation you cannot observe — is unfalsifiable by construction and
+carries live spam risk given Mueller's characterisation.
+
+Adopt the *behaviour* (atomic answers). Reject the *theory* (embedding
+engineering). Notably, this is the one place where the playbook's original
+contribution — [the retrieval test](#idea-1--the-retrieval-regression-test) —
+exists specifically because the good half of this advice had no verification
+method attached to it.
+
+---
+
+## 8. What I Rejected and Why
+
+Ideas present in the research that I deliberately excluded.
+
+---
+
+### Rejection 1 — Publishing volume as a primary strategy
+
+**Recommendation rejected:** Win authority by publishing at high volume (800/month
+cited, 20/month floor), and de-prioritise backlinks and on-page technical work.
+
+**Source:** Nick Jordan, as characterised in
+[`nick-jordan-how-nick-jordan-grows-sites-to-over-100k-organic-views-a-mon.md`](./research/youtube-transcripts/nick-jordan-how-nick-jordan-grows-sites-to-over-100k-organic-views-a-mon.md)
+
+**Why rejected**
+
+- The edge was **cost asymmetry**, and AI eliminated it for all competitors at once. A relative-cost advantage cannot survive the cost collapsing market-wide.
+- The technical dismissal is now **affirmatively wrong** for AI retrieval — Solís's rendering finding makes technical retrievability a precondition, not a nicety.
+- Volume was a **proxy for coverage**, and coverage can be pursued directly at a tenth of the output.
+
+**Risks of adopting it**
+- Site-level quality classification. Mordy Oberstein's account of thin content proliferation describes precisely this pattern.
+- Expert review capacity is exceeded, so Gate B silently degrades into rubber-stamping — the failure is invisible until a core update surfaces it.
+- Sunk cost in pages that are expensive to audit and awkward to remove.
+
+**Retained:** internal linking discipline; topical relevance as the objective;
+the outsider's skepticism toward inherited SEO folklore.
+
+---
+
+### Rejection 2 — On-page mathematics as a content strategy
+
+**Recommendation rejected:** Optimise on-page signals with sufficient precision
+that content substance becomes secondary.
+
+**Source:** Kyle Roof,
+[`kyle-roof-kyle-roof-talks-eeat-and-the-future-of-seo-with-artificial-i.md`](./research/youtube-transcripts/kyle-roof-kyle-roof-talks-eeat-and-the-future-of-seo-with-artificial-i.md)
+
+**Why rejected**
+
+- **Structurally incompatible with citation.** An answer engine must extract a proposition; optimised-but-empty content offers none. This closes off the fastest-growing retrieval channel permanently.
+- **Narrow validity regime** — demonstrated in low-competition, low-YMYL terms.
+- **Roof's own assessment**: "it's pretty terrible" as content advice. I am not overriding him; I am agreeing with him.
+
+**Risks of adopting it** — brand damage on any page a human actually reads;
+zero defensibility once a competitor publishes substance; direct exposure to
+quality-focused core updates.
+
+**Retained:** on-page precision as a cheap floor, and — more valuable — Roof's
+insistence on **controlled testing over consensus opinion**. That methodological
+stance is the best thing in his body of work and is why Gate C is designed as a
+*test* rather than a guideline.
+
+---
+
+### Rejection 3 — Date-bumping for recency
+
+**Recommendation rejected (implicitly, as widespread practice):** refresh publish
+dates to signal currency, given that recency influences citation.
+
+**Source:** the practice is widespread; the counter-evidence is Lily Ray,
+[`lily-ray-geo-aeo-llmo...`](./research/youtube-transcripts/lily-ray-geo-aeo-llmo-separating-fact-from-fiction-mozcon-2025.md)
+
+**Why rejected** — Ray notes recency genuinely matters for citation, which makes
+the temptation real, and then closes it off: she does "not recommend what Google
+calls artificial refreshening," believes "Google has ways of demoting this type
+of content," and adds that it is "just not that great for users."
+
+**Risk** — the tactic is detectable, the downside is site-level, and the upside
+is a signal you can earn honestly by actually updating the page.
+
+---
+
+### Rejection 4 — Vendor-reported citation-lift figures as evidence
+
+**Recommendation rejected:** using self-reported tool-vendor case studies to
+justify AEO investment.
+
+**Why rejected** — Several vendor figures circulated in the research phase (see
+[`research/SOURCE-AUDIT.md`](./research/SOURCE-AUDIT.md)). They are unaudited,
+methodologically undisclosed, and produced by parties selling the solution. They
+may well be accurate. They are not *evidence*, and this playbook does not build
+recommendations on them. Where citation-tracking tools are named in
+[Step 3](#step-3--serp-and-ai-answer-analysis), they are named as options with
+that caveat attached.
+
+---
+
+## 9. My Original Ideas
+
+Neither appears in the source material. Both extend it rather than departing from it.
+
+---
+
+### Idea 1 — The Retrieval Regression Test
+
+**Problem.** The research converges on an instruction — Lily Ray's "clear,
+self-contained, atomic answers that stand on their own, whether a human being
+reads them or an AI extracts them" — and then leaves it as a matter of taste.
+Nobody in the source set describes a way to *check* whether a given passage
+actually satisfies it. Meanwhile Ray demonstrates that the popular alternative
+(engineering chunk boundaries) is both unobservable and possibly spam. So
+practitioners are told to hit a target they cannot see.
+
+**Solution.** Test extraction directly, before publishing. For each atomic answer
+block:
+
+1. Copy the block **in isolation** — no surrounding page, no title, no context.
+2. Paste it into an LLM **with web access disabled**.
+3. Ask the target question from the [Step 3](#step-3--serp-and-ai-answer-analysis) fan-out list.
+4. Score:
+
+| Result | Meaning | Action |
+|---|---|---|
+| Answers correctly and completely | Passage is self-contained | **Pass** |
+| Answers but omits a key qualifier | Passage leaks context | Revise |
+| Cannot answer without the rest of the page | Not atomic | Rewrite |
+| Answers *incorrectly* | Passage is actively misleading out of context | **Block — highest priority** |
+
+Run it across the fan-out set and you get a coverage matrix: which of the
+questions a model asks are answerable from your page in isolation.
+
+**Why it might work**
+
+- It tests the actual mechanism. Retrieval extracts passages; this evaluates passages under extraction conditions.
+- It converts an aesthetic judgement into a **pass/fail gate**, which is what makes it enforceable in a workflow rather than aspirational.
+- It respects Ray's constraint. It does not attempt to control chunking — it verifies robustness *across* chunking strategies, which is the part you can actually influence.
+- It is nearly free, needs no vendor tooling, and is scriptable via any model API for CI-style regression runs across a whole library.
+- The fourth row catches a real and under-discussed risk: passages that are correct in context and wrong out of it. That is a reputational hazard specific to the retrieval era, and no source in this research addresses it.
+
+**Risks and honest limitations**
+
+- ⚠️ **Untested.** I have not run this at scale. It is a reasoned proposal, not a validated method.
+- Passing does not imply citation. Retrieval depends on authority, freshness, and competition — this tests only necessary, not sufficient, conditions.
+- Model-specific: results vary between models. Mitigate by testing across two or three and treating disagreement as a weak signal.
+- Gameable if misapplied — optimising to pass the test could produce stilted, disconnected prose. The test is a floor check, not a writing style.
+
+---
+
+### Idea 2 — Use query fan-out as the topical map input
+
+**Problem.** Two strong ideas in this research never meet. Koray Tuğberk Gübür's
+topical maps define what completeness means but are built largely from keyword and
+entity analysis — a process his own interviewer notes people find
+over-complicated. Bernard Huang's query fan-out reveals exactly which sub-questions
+a model considers necessary to answer a topic — but is used almost entirely as a
+*post-hoc audit* ("did we get cited?").
+
+The fan-out is a model telling you, explicitly, what it believes a complete
+treatment of a topic requires. That is a topical map, generated by the system you
+are trying to satisfy.
+
+**Solution.** Invert the sequence. Before planning a cluster:
+
+1. Run the head topic through 2–3 assistants with reasoning visible.
+2. Harvest the full fan-out set across runs and models.
+3. Deduplicate and cluster the sub-queries.
+4. **Assign each cluster to a page.** The fan-out set becomes the cluster's page inventory.
+5. Track coverage: fan-out queries with no owning page are gaps, in the specific sense that a model already thinks they matter.
+
+**Why it might work**
+
+- It grounds topical mapping in observed machine behaviour instead of inferred semantics — lowering the expertise barrier that limits adoption of Gübür's method.
+- It optimises for both competitions simultaneously: fan-out queries are real user questions, so pages built against them serve traditional search too.
+- It gives cluster completeness a **measurable stopping condition**, which topical-map methods generally lack.
+
+**Risks**
+
+- ⚠️ Untested at scale, and fan-out output is volatile between runs — mitigate by sampling repeatedly.
+- Risks over-fitting to current model behaviour, which changes without notice.
+- Fan-out reflects what models search for, which is not identical to what your buyers need. It supplements commercial judgement; it does not replace it.
+
+---
+
+## 10. Weaknesses of This Playbook
+
+Where this document is weakest, stated plainly.
+
+### 10.1 Untested assumptions
+
+| Assumption | Status |
+|---|---|
+| Gate B (kill switch) is enforceable in a real team under deadline | **Untested.** The first missed quarter is the real test, and I would expect it to bend. |
+| The A/B/C routing produces better allocation than intuition | **Untested.** Plausible, unmeasured. |
+| The retrieval test predicts citation | **Untested.** Necessary-condition logic only. |
+| Fan-out-derived maps beat keyword-derived maps | **Untested.** |
+| The staffing table in [§5](#5-cadence-and-staffing) reflects real capacity | **Inferred, not measured.** Treat as a hypothesis. |
+
+### 10.2 Limitations of the evidence base
+
+- **Almost everything is self-reported.** Roof's controlled testing is the exception, and his conclusions are the ones I largely set aside. The rest is practitioner testimony — valuable, but not experimental.
+- **Selection bias in the expert pool.** Every one of the ten makes their living from search being complicated enough to need specialists. None has an incentive to say "do less of this."
+- **Vendor incentives.** Huang sells content-optimisation software; Gübür sells a course; Roof sells an on-page tool; Oberstein was employed by a website platform. This does not invalidate their arguments — it means their emphases should be read with the incentive in view.
+- **Unequal depth.** Lily Ray's MozCon transcript is dense, current, and heavily evidenced. Only one Aleyda Solís transcript was collected, and her rendering finding — arguably the most actionable item in the entire playbook — rests on a **single source**. Gübür's transcripts are long on philosophy and short on reproducible procedure.
+- **Recency skew.** The Oberstein transcripts are from early 2023 and pre-date AI Overviews entirely. His reasoning generalises well, but he is not commenting on the current SERP.
+- **Geographic and sector skew.** Anglophone, US/Europe, heavily B2B SaaS. E-commerce, local, and non-English search are underrepresented, and the conclusions should not be assumed to transfer.
+
+### 10.3 What is missing
+
+- **No cost model.** Gate B is expensive and this playbook never quantifies it. The honest version of "kill the piece" is "absorb the sunk cost," and no source addresses when that stops being rational.
+- **No treatment of failure recovery** — what to do with an existing library of thin AI content. Prune, improve, or noindex? The research does not answer it and neither do I.
+- **No YMYL guidance.** Health, finance, and legal carry materially different risk. This playbook should not be applied there without additional review.
+- **Nothing on multilingual production**, where AI assistance is most tempting and quality control hardest.
+
+### 10.4 Where the workflow will fail
+
+1. **No genuine subject-matter expert.** Gate B has no meaning if nobody can supply information the model lacks. The playbook then degrades to a slower way of producing commodity content.
+2. **Volume-based targets.** The gates and the quota are in direct conflict, and the quota wins.
+3. **Genuinely commoditised categories** where no information asymmetry exists. Here Jordan's rejected model may actually outperform this one — an honest concession.
+4. **Rapidly changing subject matter**, where verification cost exceeds drafting savings and AI assistance may be net-negative.
+
+### 10.5 Shelf life
+
+The specific figures — 1–2% LLM referral traffic, the current fan-out behaviour,
+which crawlers render JavaScript — will date fastest, plausibly within two
+quarters. **The principles should outlive them; the numbers should be
+re-measured, not inherited.** Re-verify §2.6 and Step 15 quarterly.
+
+---
+
+## 11. Who I Would Not Recommend Following — and Why
+
+A note on intent: this critiques *the fit between a body of work and this
+specific use case*. Everyone here is an accomplished practitioner, and in two of
+three cases my objection is one the expert has already voiced themselves.
+
+---
+
+### Primary — Kyle Roof, as a guide to AI content production
+
+**Recommendation:** Do not use as a primary source for content strategy. Do use
+for testing methodology.
+
+**Reasoning**
+
+His Lorem Ipsum results are real and, by his account, still live: pages "in the
+number one spot for their terms [...] just Lorem Ipsum pages with the math done."
+The methodology behind that — controlled tests rather than assertion — is more
+rigorous than most of the industry.
+
+The mismatch is with *this* use case:
+
+1. **The strategy cannot produce citable content.** An answer engine must extract a proposition. Structurally optimised, semantically empty pages offer nothing to extract. This is not a quality objection; it is a mechanical one, and it closes off the growing retrieval channel entirely.
+2. **He says so himself.** Asked directly whether it constitutes good content advice: "in fact, it's pretty terrible." I am agreeing with him, not contradicting him.
+3. **His AI-search read looks weak in hindsight.** In the same interview he characterises ChatGPT as "really just a featured snippet type feature rather than an actual search engine." Given a 2023 date that is a forgivable call, but it means the transcript is not a reliable guide to the current landscape.
+4. **Incentive.** His conclusions consistently favour on-page precision; he sells an on-page optimisation tool. Not disqualifying, but relevant to weighting.
+
+**Where he *should* be followed:** test design and healthy skepticism toward
+consensus. Gate C is built in his spirit — test the mechanism rather than
+trusting the folklore.
+
+---
+
+### Secondary — Nick Jordan, for volume strategy specifically
+
+**Recommendation:** Do not follow the volume model. Do follow the internal-linking
+and topical-relevance work.
+
+**Reasoning**
+
+1. **Time-indexed advantage.** The edge was outspending competitors on production. AI removed that asymmetry for everyone at once.
+2. **The technical dismissal is now wrong.** "You don't have to focus on [...] on-page technical things" is directly contradicted by Solís's finding that AI crawlers do not render JavaScript. What was survivable for Googlebot is disqualifying for retrieval.
+3. **Attribution caution.** The headline figures reach us via a host's summary, not from Jordan. He is on record that the concept works at far lower volumes — the "800 articles" framing may be doing him a disservice.
+4. **Era.** The material pre-dates AI Overviews and the AI content glut. It answers a question about a market that no longer exists.
+
+**Where he *should* be followed:** internal linking, topical completeness, and a
+useful outsider's impatience with inherited SEO superstition.
+
+---
+
+### Qualified caution — Koray Tuğberk Gübür
+
+**Not a "do not follow" — a caution about cost of adoption.**
+
+His topical-authority framework is the most intellectually serious model in the
+research, and the patent-reading approach is genuinely differentiated. Two
+practical caveats:
+
+1. **Accessibility.** The over-complication critique is raised in his own interview by the host, and the transcripts bear it out — long on theory, thin on reproducible procedure. A small team will struggle to operationalise it without significant investment.
+2. **Incentive.** The framework is also a course product. That does not make it wrong; it does mean complexity is not commercially penalised.
+
+**Recommendation:** adopt the *concept* — coverage completeness and publication
+sequence, as in [Step 4](#step-4--entity--topical-authority-planning) — without
+committing to the full apparatus. Original Idea 2 is an attempt at a cheaper
+route to the same destination.
+
+---
+
+### Whom I would weight most heavily
+
+For balance, the inverse judgement:
+
+| Expert | Why weighted highly |
+|---|---|
+| **Lily Ray** | Cites disconfirming evidence, sources against her own commercial interest, quantifies magnitude, distinguishes hype from mechanism. The strongest single source in this set. |
+| **Aleyda Solís** | The rendering finding is concrete, testable, and immediately actionable. ⚠️ Single transcript — should be corroborated. |
+| **Mordy Oberstein** | Provides the routing logic the whole playbook depends on, and is neither an AI booster nor a denier. |
+| **Bernard Huang** | The only source demonstrating a reproducible AEO research procedure end to end. |
+| **Kevin Indig** | Grounds trust claims in an unusually good source — Google's DOJ disclosures. |
+
+---
+
+## 12. References
+
+All transcripts are in [`/research/youtube-transcripts/`](./research/youtube-transcripts/),
+retrieved via the Supadata API. Dates are as listed at collection and, per
+[`research/SOURCE-AUDIT.md`](./research/SOURCE-AUDIT.md), were **not independently
+verified**; those marked ⚠️ could not be verified at all.
+
+### Primary sources cited in this playbook
+
+| # | Author | Title | Date (listed) | Link |
+|---|---|---|---|---|
+| 1 | Lily Ray | GEO, AEO, LLMO: Separating Fact from Fiction (MozCon 2025 online adaptation) | Nov 2025 | [YouTube](https://www.youtube.com/watch?v=2nJkT8zOzcM) · [transcript](./research/youtube-transcripts/lily-ray-geo-aeo-llmo-separating-fact-from-fiction-mozcon-2025.md) |
+| 2 | Aleyda Solís | AI Search Crawlability and Why Your Site's Tech Foundations Decide Visibility | 2025 | [YouTube](https://www.youtube.com/watch?v=pqrwpXpMM6s) · [transcript](./research/youtube-transcripts/aleyda-solis-ai-search-crawlability-and-why-your-site-tech-foundations-de.md) |
+| 3 | Bernard Huang | How To Do AEO: Prompt Research, Query Fan Out, Content (Clearscope live session) | Feb 2026 | [YouTube](https://www.youtube.com/watch?v=RMg2eTZL7Jk) · [transcript](./research/youtube-transcripts/bernard-huang-how-to-do-aeo-prompt-research-query-fan-out-content-live-ses.md) |
+| 4 | Bernard Huang | How to do B2B Content Strategy & SEO (Clearscope Office Hours) | 2024 | [YouTube](https://www.youtube.com/watch?v=VNXjG1OZxPw) · [transcript](./research/youtube-transcripts/bernard-huang-how-to-do-b2b-content-strategy-and-seo-clearscope-office-hou.md) |
+| 5 | Bernard Huang | How to Rank SEO Content in the Era of Generative AI | Aug 2023 | [YouTube](https://www.youtube.com/watch?v=ZytMamXMG0M) · [transcript](./research/youtube-transcripts/bernard-huang-how-to-rank-seo-content-in-the-era-of-generative-ai.md) |
+| 6 | Mordy Oberstein | SEO Branding and AI Content | Jan 2023 | [YouTube](https://www.youtube.com/watch?v=npmVxc_5Tqo) · [transcript](./research/youtube-transcripts/mordy-oberstein-seo-branding-and-ai-content-with-mordy-oberstein-head-of-seo.md) |
+| 7 | Kevin Indig | The SEO Playbook for the AI Age | May 2025 | [YouTube](https://www.youtube.com/watch?v=eepyi-NYFiM) · [transcript](./research/youtube-transcripts/kevin-indig-the-seo-playbook-for-the-ai-age-with-kevin-indig.md) |
+| 8 | Ross Simmonds | Content Distribution in the Age of AI | Oct 2025 | [YouTube](https://www.youtube.com/watch?v=VXxFJAg7YJw) · [transcript](./research/youtube-transcripts/ross-simmonds-content-distribution-in-the-age-of-ai.md) |
+| 9 | Kyle Roof | EEAT and the Future of SEO with Artificial Intelligence | 2023 | [YouTube](https://www.youtube.com/watch?v=SniZRx1PXdg) · [transcript](./research/youtube-transcripts/kyle-roof-kyle-roof-talks-eeat-and-the-future-of-seo-with-artificial-i.md) |
+| 10 | Nick Jordan | How Nick Jordan Grows Sites to Over 100k Organic Views a Month Without Link Building | 2023 | [YouTube](https://www.youtube.com/watch?v=wW_t3btaxAk) · [transcript](./research/youtube-transcripts/nick-jordan-how-nick-jordan-grows-sites-to-over-100k-organic-views-a-mon.md) |
+| 11 | Brendan Hufford | From SEO to AEO: How Answer Engine Optimization Is Replacing Search for B2B Marketers | 2025 | [YouTube](https://www.youtube.com/watch?v=lMyYbBHXuG8) · [transcript](./research/youtube-transcripts/brendan-hufford-from-seo-to-aeo-how-answer-engine-optimization-is-replacing.md) |
+| 12 | Koray Tuğberk Gübür | How Topical Authority SEO Works | Mar 2024 | [YouTube](https://www.youtube.com/watch?v=pIKfKowzauQ) · [transcript](./research/youtube-transcripts/koray-tugberk-gubur-how-topical-authority-seo-works.md) |
+
+### Third parties cited *within* those sources
+
+Reported by the speaker above; I did not independently verify these.
+
+| Attributed to | Claim | Reported by |
+|---|---|---|
+| Danny Sullivan (Google) | Good SEO is effectively the same as good GEO | Lily Ray |
+| John Mueller (Google) | Optimising for embeddings is "keyword stuffing", a form of spam | Lily Ray |
+| Britney Müller | Every URL in an LLM output comes from a search engine API (Google/Bing) | Lily Ray |
+| Robby Stein (Google) | AI search is "expansionary" — additive to Google search | Lily Ray |
+| Glenn Gabe | ~1% of client traffic from LLM referrers | Lily Ray |
+| Semrush | Google sessions/week rose 10.5 → 12.6 after ChatGPT adoption | Lily Ray |
+| Rand Fishkin / SparkToro | Traditional search usage broadly flat through 2025 | Lily Ray |
+| Dana DiTomaso | GA4 methodology for segmenting AI-sourced traffic | Lily Ray |
+| Dan Petrovic | GPT-5's dependence on retrieval grounding | Lily Ray |
+
+### Additional collected material — consulted, not quoted
+
+- [`research/sources.md`](./research/sources.md) — index of all 10 experts
+- [`research/other/additional-sources.md`](./research/other/additional-sources.md) — 11 newsletters, podcasts, webinars; all URLs verified HTTP 200 on 2026-08-08
+- [`research/linkedin-posts/`](./research/linkedin-posts/) — **not quoted**; see [`SOURCE-AUDIT.md`](./research/SOURCE-AUDIT.md)
+- 15 further transcripts collected but not cited above
+
+### Unverifiable dates
+
+⚠️ Ross Simmonds, "SEOs Who Ignore Distribution Will Fall Behind" (listed Feb 2026)
+⚠️ Lily Ray, "The Future of SEO: Google Updates, AI Search & GEO Spam" (listed Mar 2026)
+
+---
+
+*Playbook v1.0 · 08 August 2026 · Kapil*
+*Built from 27 verbatim transcripts. Quotations are traceable to named files.
+Where evidence is thin, the document says so.*
