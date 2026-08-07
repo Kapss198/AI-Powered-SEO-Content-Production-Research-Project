@@ -3,7 +3,31 @@
 **Author:** Kapil  
 **Topic:** AI-Powered SEO Content Production  
 **Purpose:** Portfolio project for 100Hires Junior Growth Marketing Specialist role  
-**Status:** Expert Research & Source Collection - Done
+**Status:** Phase 1 (Research) — Done · Phase 2 (Playbook) — Done
+
+---
+
+## 📘 Start here: [`PLAYBOOK.md`](./PLAYBOOK.md)
+
+The main deliverable. An operating manual for producing SEO content with AI
+assistance, synthesised from the research below rather than summarising it.
+
+| Section | What's in it |
+|---|---|
+| Guiding principles | Six positions that recur across independent sources, each traced to a verbatim quote |
+| 15-step SOP | Preflight → topic selection → … → distribution → measurement, with three quality gates and a kill switch |
+| Where experts disagree | Four documented conflicts, both sides quoted, evidence weighed, a conclusion reached |
+| What I rejected | Four recommendations from the research deliberately excluded, with reasoning |
+| My original ideas | The Retrieval Regression Test, and using query fan-out as a topical map input |
+| Weaknesses | Untested assumptions, evidence limits, where this workflow fails |
+| Who I would not follow | Kyle Roof, Nick Jordan, and a qualified caution on Koray Gübür |
+
+**Also read: [`research/SOURCE-AUDIT.md`](./research/SOURCE-AUDIT.md).** Before
+writing the playbook I audited every source in this repo and found a problem in
+my own Phase 1 work: the LinkedIn "excerpts" were reconstructed from search
+summaries rather than transcribed, and several statistics in them could not be
+traced to any primary source. The playbook therefore cites the 27 verbatim
+YouTube transcripts only. The audit documents exactly what was struck and why.
 
 ---
 
@@ -25,9 +49,11 @@ The goal of this research is not to collect 10 names from a Google search. It is
 ```
 /
 ├── README.md                          ← You are here
+├── PLAYBOOK.md                        ← ★ MAIN DELIVERABLE — the SOP
 └── research/
+    ├── SOURCE-AUDIT.md                ← what is verbatim vs reconstructed, and why
     ├── sources.md                     ← 10 experts with full annotations & YouTube links
-    ├── linkedin-posts/                ← Posts organized by author
+    ├── linkedin-posts/                ← Posts by author (⚠️ paraphrase, not quotes)
     │   ├── ross-simmonds/
     │   ├── aleyda-solis/
     │   ├── lily-ray/
