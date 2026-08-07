@@ -4,6 +4,22 @@
 **Collected:** June 2026  
 **Focus:** AEO/GEO, information gain, AI citation tracking, Clearscope product updates
 
+> ### PROVENANCE NOTICE — READ BEFORE CITING
+>
+> **The passages in this file are NOT verbatim quotes.** LinkedIn blocks automated
+> collection, so these were reconstructed from search-engine result summaries and
+> secondary coverage during the research phase. They are **paraphrased themes**, not
+> transcribed text.
+>
+> **Do not quote this file as if it were the author's exact words.** Specific statistics
+> that could not be traced to a primary source were flagged or struck during the source
+> audit (2026-08-08) — see `SOURCE-AUDIT.md`.
+>
+> Verified, verbatim primary source material for this project lives in
+> `/research/youtube-transcripts/` — fetched via the Supadata API from published talks.
+> **`PLAYBOOK.md` cites those transcripts only, not this file.**
+
+
 ---
 
 ## Post 1: "If SEO = Tracking Keywords, Then AEO = Tracking Prompts"
