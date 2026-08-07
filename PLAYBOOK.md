@@ -1307,11 +1307,6 @@ Reported by the speaker above; I did not independently verify these.
 - [`research/linkedin-posts/`](./research/linkedin-posts/) — **not quoted**; see [`SOURCE-AUDIT.md`](./research/SOURCE-AUDIT.md)
 - 15 further transcripts collected but not cited above
 
-### Unverifiable dates
-
-⚠️ Ross Simmonds, "SEOs Who Ignore Distribution Will Fall Behind" (listed Feb 2026)
-⚠️ Lily Ray, "The Future of SEO: Google Updates, AI Search & GEO Spam" (listed Mar 2026)
-
 ---
 
 *Playbook v1.0 · 08 August 2026 · Kapil*
